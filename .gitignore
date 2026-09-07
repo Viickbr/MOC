@@ -1,0 +1,15 @@
+# Banco de dados é gerado a partir dos arquivos JSON em data/ + seed_data.py
+# — não precisa (e não deve) ser versionado.
+cfaq_moc.db
+
+# Arquivos gerados automaticamente pelo Python
+__pycache__/
+*.pyc
+
+# Logs locais
+*.log
+
+# Ambiente virtual, caso você venha a usar um (venv/env)
+venv/
+.venv/
+env/

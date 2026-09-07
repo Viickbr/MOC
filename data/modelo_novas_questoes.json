@@ -1,0 +1,16 @@
+[
+  {
+    "disciplina": "Matemática",
+    "texto_base": "",
+    "enunciado": "Escreva aqui o enunciado da questão.",
+    "alternativas": {
+      "A": "texto da alternativa A",
+      "B": "texto da alternativa B",
+      "C": "texto da alternativa C",
+      "D": "texto da alternativa D"
+    },
+    "resposta_correta": "A",
+    "explicacao": "Escreva aqui um resumo curto de por que essa é a resposta certa.",
+    "desenvolvimento": "Escreva aqui o passo a passo do cálculo (linha por linha). Deixe em branco (ou apague o campo) se a questão for de Português."
+  }
+]

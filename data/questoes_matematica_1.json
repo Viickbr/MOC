@@ -1,0 +1,171 @@
+[
+  {
+    "disciplina": "Matemática",
+    "enunciado": "A alternativa correta que apresenta o número natural 3 como solução da equação é:",
+    "alternativas": {
+      "A": "2x − 8 = 1",
+      "B": "(x−2)/3 = x/5",
+      "C": "5(x−1) = 2(x+2)",
+      "D": "(x−1)/3 = 2/5"
+    },
+    "resposta_correta": "C",
+    "explicacao": "Testando x=3, só a equação (c) fecha dos dois lados: 5(3−1)=10 e 2(3+2)=10.",
+    "desenvolvimento": "Resolvendo (c) de forma geral:\n5(x−1) = 2(x+2)\n5x − 5 = 2x + 4\n5x − 2x = 4 + 5\n3x = 9\nx = 3 ✓\n\nConferindo as outras com x=3:\n(a) 2(3)−8 = −2 ≠ 1\n(b) (3−2)/3 = 1/3  e  3/5 = 0,6 → não são iguais\n(d) (3−1)/3 = 2/3  e  2/5 = 0,4 → não são iguais"
+  },
+  {
+    "disciplina": "Matemática",
+    "enunciado": "Sobre a raiz inteira da equação 4x/5 = 12, podemos afirmar que é:",
+    "alternativas": {
+      "A": "um número divisível por 3.",
+      "B": "um número par.",
+      "C": "um número múltiplo de 6.",
+      "D": "um número múltiplo de 10."
+    },
+    "resposta_correta": "A",
+    "explicacao": "A raiz é x=15, que é divisível por 3 (e só por 3, entre as opções).",
+    "desenvolvimento": "4x/5 = 12\n4x = 12 × 5\n4x = 60\nx = 60 ÷ 4\nx = 15\n\nConferindo as opções com x=15:\n15 ÷ 3 = 5 → divisível por 3 ✓\n15 é ímpar → não é par ✗\n15 ÷ 6 não é exato → não é múltiplo de 6 ✗\n15 ÷ 10 não é exato → não é múltiplo de 10 ✗"
+  },
+  {
+    "disciplina": "Matemática",
+    "enunciado": "Um campo de futebol tem 80 metros de comprimento e 42 metros de largura. A área desse campo é igual a:",
+    "alternativas": {
+      "A": "3360 metros quadrados.",
+      "B": "3370 metros quadrados.",
+      "C": "3380 metros quadrados.",
+      "D": "5000 metros quadrados."
+    },
+    "resposta_correta": "A",
+    "explicacao": "Área do retângulo = comprimento × largura = 3360 m².",
+    "desenvolvimento": "Fórmula: área do retângulo = comprimento × largura\n\nÁrea = 80 × 42\nÁrea = 3360 m²\n\nAs alternativas B e C são valores próximos, criados pra pegar quem multiplica com um pequeno erro de conta — vale sempre conferir 80×42 com calma (80×40=3200, mais 80×2=160, total 3360)."
+  },
+  {
+    "disciplina": "Matemática",
+    "enunciado": "Durante um naufrágio, os sobreviventes dividiram a comida que sobrou em partes iguais. Sabendo-se que a quantidade de comida duraria 8 dias para os 12 náufragos, caso fossem encontrados mais 4 sobreviventes e a comida fosse redistribuída, essa comida duraria:",
+    "alternativas": {
+      "A": "3 dias",
+      "B": "4 dias",
+      "C": "5 dias",
+      "D": "6 dias"
+    },
+    "resposta_correta": "D",
+    "explicacao": "É regra de três inversa: mais gente, menos dias. A comida dura 6 dias com 16 pessoas.",
+    "desenvolvimento": "Regra de três INVERSA (quanto mais gente, menos dias dura a mesma comida)\n\nTotal de 'ração' fixo = 12 náufragos × 8 dias = 96 pessoa-dias\n\nCom 12 + 4 = 16 pessoas:\n96 ÷ 16 = 6 dias"
+  },
+  {
+    "disciplina": "Matemática",
+    "enunciado": "Um concurso público tem 30 questões de aritmética e 50 questões de geometria. Júlio acertou 70% das questões de aritmética e 80% do total de questões. O percentual das questões de geometria que ele acertou (em relação ao total da prova) é igual a:",
+    "alternativas": {
+      "A": "26,25%",
+      "B": "43%",
+      "C": "53%",
+      "D": "53,75%"
+    },
+    "resposta_correta": "D",
+    "explicacao": "Ele acertou 43 questões de geometria; isso equivale a 53,75% do total da prova (não confundir o número de acertos com a porcentagem).",
+    "desenvolvimento": "Total de questões = 30 + 50 = 80\n\nAcertos totais = 80% de 80 = 0,80 × 80 = 64 questões\n\nAcertos em aritmética = 70% de 30 = 0,70 × 30 = 21 questões\n\nAcertos em geometria = 64 − 21 = 43 questões\n\nEsse valor (43), como % do total da prova (80 questões):\n43 ÷ 80 = 0,5375 = 53,75%\n\nAtenção: a alternativa B (43%) é uma pegadinha — 43 é o NÚMERO de questões certas, não a porcentagem."
+  },
+  {
+    "disciplina": "Matemática",
+    "enunciado": "Um time de futebol venceu 20 dos seus 32 jogos. A porcentagem de vitórias foi igual a:",
+    "alternativas": {
+      "A": "41%",
+      "B": "55,3%",
+      "C": "60%",
+      "D": "62,5%"
+    },
+    "resposta_correta": "D",
+    "explicacao": "20 vitórias em 32 jogos correspondem a 62,5%.",
+    "desenvolvimento": "Porcentagem = vitórias ÷ total de jogos\n\n20 ÷ 32 = 0,625\n\n0,625 = 62,5%"
+  },
+  {
+    "disciplina": "Matemática",
+    "enunciado": "A área de um quadrado de 8 centímetros de diagonal é igual a:",
+    "alternativas": {
+      "A": "8 centímetros quadrados",
+      "B": "16 centímetros quadrados",
+      "C": "32 centímetros quadrados",
+      "D": "64 centímetros quadrados"
+    },
+    "resposta_correta": "C",
+    "explicacao": "Pela fórmula área = diagonal²/2, a área é 32 cm².",
+    "desenvolvimento": "Para um quadrado, existe um atalho usando a diagonal (D):\nÁrea = D² / 2\n\n(Isso vem de dividir o quadrado em dois triângulos retângulos pela diagonal.)\n\nÁrea = 8² / 2\nÁrea = 64 / 2\nÁrea = 32 cm²"
+  },
+  {
+    "disciplina": "Matemática",
+    "enunciado": "O valor da expressão numérica (√2 + 1/√2)² é igual a:",
+    "alternativas": {
+      "A": "4,5.",
+      "B": "4.",
+      "C": "3,5.",
+      "D": "2,5."
+    },
+    "resposta_correta": "A",
+    "explicacao": "Expandindo o produto notável, a expressão vale 4,5.",
+    "desenvolvimento": "Usando (a+b)² = a² + 2ab + b², com a=√2 e b=1/√2:\n\na² = (√2)² = 2\n\nb² = (1/√2)² = 1/2\n\n2ab = 2 × √2 × (1/√2) = 2 × 1 = 2\n(o √2 do numerador cancela com o √2 do denominador)\n\nSomando: 2 + 2 + 0,5 = 4,5"
+  },
+  {
+    "disciplina": "Matemática",
+    "enunciado": "Considere √7 = 2,646. O valor de 35/√7 é igual a:",
+    "alternativas": {
+      "A": "11,22.",
+      "B": "12,23.",
+      "C": "13,23.",
+      "D": "13,28."
+    },
+    "resposta_correta": "C",
+    "explicacao": "Racionalizando a fração, o resultado é 13,23.",
+    "desenvolvimento": "Racionalizando (multiplicar em cima e embaixo por √7):\n\n35/√7 = (35 × √7) / (√7 × √7) = 35√7 / 7\n\n35 ÷ 7 = 5, então: 35√7/7 = 5√7\n\nSubstituindo √7 = 2,646:\n5 × 2,646 = 13,23"
+  },
+  {
+    "disciplina": "Matemática",
+    "enunciado": "Para x = −2, o valor de √(x² + 2x + 1) é igual a:",
+    "alternativas": {
+      "A": "−2",
+      "B": "−1",
+      "C": "1",
+      "D": "2"
+    },
+    "resposta_correta": "C",
+    "explicacao": "x² + 2x + 1 é (x+1)², então a raiz é |x+1| = 1.",
+    "desenvolvimento": "x² + 2x + 1 é o produto notável (x+1)²\n\nEntão a expressão é: √((x+1)²) = |x+1|\n(raiz quadrada de um quadrado é sempre o valor absoluto — nunca dá negativo)\n\nSubstituindo x = −2:\n|−2 + 1| = |−1| = 1"
+  },
+  {
+    "disciplina": "Matemática",
+    "enunciado": "Se ab = 2 e a + b + a²b + ab² = 13,5, então a soma 1/a + 1/b é igual a:",
+    "alternativas": {
+      "A": "2,5",
+      "B": "2,25",
+      "C": "1,5",
+      "D": "1,25"
+    },
+    "resposta_correta": "B",
+    "explicacao": "Fatorando a expressão dada, chega-se a a+b=4,5, e daí 1/a+1/b=2,25.",
+    "desenvolvimento": "Repare que a²b + ab² = ab(a+b)\n\nComo ab=2, isso vira: 2(a+b)\n\nSubstituindo na equação original:\n(a+b) + 2(a+b) = 13,5\n3(a+b) = 13,5\na+b = 4,5\n\nComo 1/a + 1/b = (a+b)/(ab):\n4,5 / 2 = 2,25"
+  },
+  {
+    "disciplina": "Matemática",
+    "enunciado": "Resolvendo o produto notável (x+1).(x+4), obtemos:",
+    "alternativas": {
+      "A": "x² + 5x + 6",
+      "B": "x² + 6x + 4",
+      "C": "x² + 5x + 8",
+      "D": "x² + 5x + 4"
+    },
+    "resposta_correta": "D",
+    "explicacao": "Multiplicando termo a termo, chega-se em x² + 5x + 4.",
+    "desenvolvimento": "(x+1)(x+4) = x·x + x·4 + 1·x + 1·4\n\n= x² + 4x + x + 4\n\n= x² + 5x + 4\n(soma dos termos: 4x+x=5x; produto dos independentes: 1×4=4)"
+  },
+  {
+    "disciplina": "Matemática",
+    "enunciado": "Fatorando a expressão 3x − 6y + ax − 2ay, obtemos:",
+    "alternativas": {
+      "A": "(3+a)(6−2y)",
+      "B": "(3+a)(x−2y)",
+      "C": "(3+x)(x−2y)",
+      "D": "(3−a)(x−2y)"
+    },
+    "resposta_correta": "B",
+    "explicacao": "Agrupando os termos em pares e colocando fatores comuns em evidência, chega-se em (3+a)(x−2y).",
+    "desenvolvimento": "Agrupar em dois pares:\n(3x − 6y) + (ax − 2ay)\n\nNo 1º par, o fator comum é 3:\n3(x − 2y)\n\nNo 2º par, o fator comum é a:\na(x − 2y)\n\nAgora os dois pares têm (x−2y) em comum:\n3(x−2y) + a(x−2y) = (3+a)(x−2y)"
+  }
+]

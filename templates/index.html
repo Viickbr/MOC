@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Caderno de Bordo — Estudo CFAQ-MOC</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+  <header class="topo">
+    <div class="topo-conteudo">
+      <div class="topo-titulo">
+        <span class="icone-ancora" aria-hidden="true">⚓</span>
+        <div>
+          <h1>Caderno de Bordo</h1>
+          <p class="subtitulo">Treino para o CFAQ-MOC</p>
+        </div>
+      </div>
+      <div class="placar" id="placar">
+        <span class="placar-item placar-acertos">Acertos: <strong id="contagem-acertos">0</strong></span>
+        <span class="placar-item placar-erros">Erros: <strong id="contagem-erros">0</strong></span>
+      </div>
+    </div>
+  </header>
+
+  <main class="conteudo">
+    <div class="area-conteudo" id="area-conteudo">
+
+      <!-- Painel de apoio: mostra o texto-base (Português) desde o início,
+           ou o desenvolvimento do cálculo (Matemática) só depois de responder. -->
+      <aside class="painel-apoio oculto" id="painel-apoio" aria-live="polite">
+        <div id="painel-texto-base" class="painel-bloco oculto">
+          <p class="painel-rotulo">Texto de apoio</p>
+          <div class="painel-conteudo" id="painel-texto-base-conteudo"></div>
+        </div>
+        <div id="painel-desenvolvimento" class="painel-bloco oculto">
+          <p class="painel-rotulo">Desenvolvimento do cálculo</p>
+          <div class="painel-conteudo" id="painel-desenvolvimento-conteudo"></div>
+        </div>
+      </aside>
+
+      <section class="carta" id="carta-questao" aria-live="polite">
+
+        <p class="carregando" id="carregando">Carregando questão…</p>
+
+        <div id="corpo-questao" class="oculto">
+          <div class="entrada-cabecalho">
+            <span class="etiqueta-disciplina" id="etiqueta-disciplina"></span>
+          </div>
+
+          <div class="linha-nautica" aria-hidden="true"></div>
+
+          <p class="enunciado" id="enunciado"></p>
+
+          <ul class="alternativas" id="alternativas"></ul>
+
+          <div class="acoes">
+            <button id="botao-responder" class="botao botao-primario" disabled>Responder</button>
+          </div>
+
+          <div id="painel-feedback" class="painel-feedback oculto">
+            <p class="feedback-status" id="feedback-status"></p>
+            <p class="feedback-explicacao" id="feedback-explicacao"></p>
+            <button id="botao-proxima" class="botao botao-secundario">Próxima questão →</button>
+          </div>
+        </div>
+
+      </section>
+
+    </div>
+  </main>
+
+  <footer class="rodape">
+    <p>Dados de estudo pessoal — não é um site oficial da Marinha do Brasil.</p>
+  </footer>
+
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

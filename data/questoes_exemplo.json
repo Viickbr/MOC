@@ -1,0 +1,77 @@
+[
+  {
+    "disciplina": "Português",
+    "enunciado": "Leia o texto a seguir.\n\n\"O moço de convés é responsável por parte da manutenção e da limpeza da embarcação, além de auxiliar em manobras de atracação e desatracação. É uma função que exige atenção constante às condições do tempo e do mar.\"\n\nDe acordo com o texto, uma das atribuições do moço de convés é:",
+    "alternativas": {
+      "A": "Comandar a embarcação durante toda a viagem",
+      "B": "Auxiliar em manobras de atracação e desatracação",
+      "C": "Realizar exclusivamente tarefas administrativas em terra",
+      "D": "Substituir o capitão em caso de emergência"
+    },
+    "resposta_correta": "B",
+    "explicacao": "O texto diz claramente que o moço de convés 'auxilia em manobras de atracação e desatracação', além da manutenção e limpeza. As demais alternativas descrevem funções não mencionadas no texto."
+  },
+  {
+    "disciplina": "Português",
+    "enunciado": "Assinale a alternativa em que todas as palavras estão escritas corretamente:",
+    "alternativas": {
+      "A": "Embarcação, manutenção, atenção",
+      "B": "Embarcasão, manuitenção, atensão",
+      "C": "Enbarcação, manutenção, atenção",
+      "D": "Embarcação, manutenssão, atensão"
+    },
+    "resposta_correta": "A",
+    "explicacao": "'Embarcação', 'manutenção' e 'atenção' seguem a regra do sufixo '-ção' para substantivos derivados de verbos terminados em '-ar' e '-ter/-ir'. As demais alternativas trocam letras ou usam grafias que não existem em português."
+  },
+  {
+    "disciplina": "Português",
+    "enunciado": "Na frase \"O candidato que estudar mais terá mais chances de aprovação\", a palavra destacada (\"que\") tem a função de:",
+    "alternativas": {
+      "A": "Advérbio de intensidade",
+      "B": "Pronome relativo, retomando 'o candidato'",
+      "C": "Conjunção coordenativa aditiva",
+      "D": "Interjeição"
+    },
+    "resposta_correta": "B",
+    "explicacao": "'Que' retoma o termo 'o candidato' e introduz uma oração que dá mais informação sobre ele — essa é a função do pronome relativo."
+  },
+  {
+    "disciplina": "Matemática",
+    "enunciado": "Uma embarcação percorre 60 km em 4 horas, mantendo velocidade constante. Qual é a velocidade média dessa embarcação, em km/h?",
+    "alternativas": {
+      "A": "10 km/h",
+      "B": "15 km/h",
+      "C": "20 km/h",
+      "D": "24 km/h"
+    },
+    "resposta_correta": "B",
+    "explicacao": "Velocidade média = distância ÷ tempo. Com os números do problema, dá 15 km/h.",
+    "desenvolvimento": "Fórmula: velocidade média = distância ÷ tempo\n\nDistância = 60 km\nTempo = 4 h\n\nVelocidade média = 60 ÷ 4 = 15 km/h\n\nPor que as outras erram:\n(A) 10 km/h viria de dividir errado (ex: 60 ÷ 6).\n(C) 20 km/h e (D) 24 km/h vêm de trocar a divisão por multiplicação ou usar o tempo errado."
+  },
+  {
+    "disciplina": "Matemática",
+    "enunciado": "Um recipiente cúbico tem 3 metros de aresta. Qual é o volume desse recipiente, em metros cúbicos?",
+    "alternativas": {
+      "A": "9 m³",
+      "B": "18 m³",
+      "C": "27 m³",
+      "D": "81 m³"
+    },
+    "resposta_correta": "C",
+    "explicacao": "O volume de um cubo é aresta × aresta × aresta = 27 m³.",
+    "desenvolvimento": "Fórmula: volume do cubo = aresta³ = aresta × aresta × aresta\n\nAresta = 3 m\n\nVolume = 3 × 3 × 3 = 27 m³\n\nPor que as outras erram:\n(A) 9 m³ é só 3² (aresta ao quadrado), esquecendo de multiplicar pela terceira dimensão.\n(D) 81 m³ seria 3⁴, um erro de potência (multiplicou uma vez a mais)."
+  },
+  {
+    "disciplina": "Matemática",
+    "enunciado": "Em uma turma de 40 candidatos, 25% foram aprovados na primeira etapa. Quantos candidatos foram aprovados?",
+    "alternativas": {
+      "A": "5",
+      "B": "10",
+      "C": "15",
+      "D": "20"
+    },
+    "resposta_correta": "B",
+    "explicacao": "25% de 40 candidatos são 10 candidatos aprovados.",
+    "desenvolvimento": "25% equivale à fração 1/4 (25 ÷ 100 = 1/4)\n\n1/4 de 40 = 40 ÷ 4 = 10 candidatos\n\nPor que as outras erram:\n(A) 5 seria 1/8 de 40, não 1/4.\n(D) 20 seria 50% de 40 (confundindo 25% com metade)."
+  }
+]
